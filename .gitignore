@@ -1,0 +1,23 @@
+# Rails
+/log/*
+/tmp/*
+/storage/*
+!/log/.keep
+!/tmp/.keep
+/public/assets
+/.bundle
+/config/master.key
+/config/credentials/*.key
+
+# Environment files
+.env*
+!.env.example
+
+# Node
+node_modules/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

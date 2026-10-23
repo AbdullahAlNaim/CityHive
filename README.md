@@ -9,7 +9,7 @@ A small Rails JSON API for a drinks store: browse products, get a checkout quote
 **Prerequisites:** Docker with Compose (Docker Desktop on Windows/macOS). Node 18+ is only needed for the verification script.
 
 ```
-git clone <repo-url>
+git clone git@github.com:AbdullahAlNaim/CityHive.git
 cd CityHive
 docker compose up --build
 ```

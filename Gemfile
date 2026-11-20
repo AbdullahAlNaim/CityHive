@@ -35,4 +35,4 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-gem "mongoid", "~> 9.1.0"
+gem "mongoid", "~> 9.1.2"

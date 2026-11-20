@@ -88,7 +88,7 @@ GEM
       bundler (>= 1.2.0)
       thor (~> 1.0)
     concurrent-ruby (1.3.8)
-    connection_pool (3.0.2)
+    connection_pool (3.0.3)
     crass (1.0.7)
     date (3.6.0)
     debug (1.11.1)
@@ -122,13 +122,13 @@ GEM
       net-smtp
     marcel (1.2.1)
     mini_mime (1.1.5)
-    minitest (6.0.6)
+    minitest (6.1.0)
       drb (~> 2.0)
-      prism (~> 1.5)
-    mongo (2.26.0)
+      prism (>= 1.5, < 3)
+    mongo (2.26.2)
       base64
       bson (>= 4.14.1, < 6.0.0)
-    mongoid (9.1.1)
+    mongoid (9.1.2)
       activemodel (>= 5.1, < 8.2, != 7.0.0)
       concurrent-ruby (>= 1.0.5, < 2.0)
       mongo (>= 2.18.0, < 3.0.0)
@@ -272,7 +272,7 @@ DEPENDENCIES
   brakeman
   bundler-audit
   debug
-  mongoid (~> 9.1.0)
+  mongoid (~> 9.1.2)
   puma (>= 5.0)
   rails (~> 8.1.4)
   rubocop-rails-omakase
